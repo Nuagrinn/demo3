@@ -25,11 +25,11 @@ public class TreeUtils {
             return null;
         }
 
-        TreeNode root = new TreeNode(array[0]); // Корень дерева
+        TreeNode root = new TreeNode(array[0]);
         Queue<TreeNode> queue = new LinkedList<>();
         queue.add(root);
 
-        int i = 1; // Индекс текущего элемента массива
+        int i = 1;
         while (i < array.length) {
             TreeNode current = queue.poll();
 
